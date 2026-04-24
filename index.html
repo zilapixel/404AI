@@ -1,188 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$CROC Protocol - Meme Meets DeFi & AI</title>
-    <meta name="description" content="A next-generation ecosystem combining decentralized finance with artificial intelligence">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/premium.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon" />
+  <title>404AI — AI NOT FOUND | Human Movement Token</title>
+  <meta name="description" content="404AI is a human-first crypto movement built on Polygon. AI is a tool. Humans are the power." />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">$CROC</a>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="what-is.html">What is $CROC</a></li>
-                <li><a href="tokenomics.html">Tokenomics</a></li>
-                <li><a href="roadmap.html">Roadmap</a></li>
-                <li><a href="buy.html">Buy</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-            <div class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="./index.html" class="nav-brand">
+        <span class="brand-mark">404</span>
+        <span class="brand-text">404<span>AI</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./tokenomics.html">Tokenomics</a></li>
+        <li><a href="./roadmap.html">Roadmap</a></li>
+        <li><a href="./airdrop.html">Airdrop</a></li>
+        <li><a href="./info.html">Info</a></li>
+        <li><a href="https://docs.google.com/document/d/404ai-whitepaper" class="whitepaper-link" data-external>Whitepaper</a></li>
+        <li><a href="#buy" class="nav-cta">Buy Token</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" style="min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden;">
-        <!-- Background Effects -->
-        <div class="grid-bg"></div>
-        <div class="particle-bg"></div>
-        <div class="scan-line"></div>
-        
-        <!-- Background Image -->
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.3; z-index: 0;">
-            <img src="https://mgx-backend-cdn.metadl.com/generate/images/977186/2026-03-31/c0a58374-773c-4db3-a33c-45ea17dece3b.png" 
-                 alt="Blockchain Grid" 
-                 style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        
-        <div class="container" style="position: relative; z-index: 1;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;">
-                <!-- Hero Content -->
-                <div class="fade-in">
-                    <h1 class="text-glow-strong" style="margin-bottom: 24px;">
-                        $CROC Protocol
-                    </h1>
-                    <h2 class="gradient-text" style="font-size: 32px; margin-bottom: 32px;">
-                        Meme Meets DeFi & AI
-                    </h2>
-                    <p style="font-size: 20px; color: var(--color-text-secondary); margin-bottom: 48px; line-height: 1.8;">
-                        A next-generation ecosystem combining decentralized finance with artificial intelligence. 
-                        Where meme culture meets serious technology.
-                    </p>
-                    <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-                        <a href="buy.html" class="btn btn-primary glow">Buy Now</a>
-                        <a href="what-is.html" class="btn btn-secondary">Explore Ecosystem</a>
-                    </div>
-                    
-                    <!-- Stats -->
-                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 64px;">
-                        <div class="glass-card" style="text-align: center; padding: 24px;">
-                            <div class="counter" data-target="1000000000" style="font-size: 32px;">0</div>
-                            <p style="margin: 0; font-size: 14px;">Max Supply</p>
-                        </div>
-                        <div class="glass-card" style="text-align: center; padding: 24px;">
-                            <div class="counter" data-target="100" style="font-size: 32px;">0</div>
-                            <p style="margin: 0; font-size: 14px;">AI Powered</p>
-                        </div>
-                        <div class="glass-card" style="text-align: center; padding: 24px;">
-                            <div class="counter" data-target="24" style="font-size: 32px;">0</div>
-                            <p style="margin: 0; font-size: 14px;">Hours Trading</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Hero Image -->
-                <div class="hero-image floating" style="position: relative;">
-                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/977186/2026-03-31/7fc8e724-843f-44fb-94d9-f33e9befc8ab.png" 
-                         alt="$CROC 3D Mascot" 
-                         style="width: 100%; max-width: 600px; filter: drop-shadow(0 0 50px rgba(0, 255, 65, 0.5));">
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        <span>Built on Polygon · Human-First Movement</span>
+      </div>
+      <h1>404 — AI <span class="glitch">NOT FOUND</span></h1>
+      <p class="hero-subtitle">The future belongs to humans.</p>
+      <p class="hero-tagline">Humans &gt; Algorithms · Stay Human</p>
+      <div class="hero-actions">
+        <a href="#buy" class="btn btn-primary btn-lg">Buy Token</a>
+        <a href="./airdrop.html" class="btn btn-secondary btn-lg">Join Airdrop</a>
+      </div>
 
-    <!-- Features Section -->
-    <section style="padding: 100px 0; position: relative;">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2 class="text-glow">Why Choose $CROC?</h2>
-                <p>The perfect blend of meme energy and cutting-edge technology</p>
-            </div>
-            
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin-top: 64px;">
-                <!-- Feature 1 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">🤖</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">AI-Powered</h3>
-                    <p>Advanced artificial intelligence algorithms optimize your DeFi strategies in real-time.</p>
-                </div>
-                
-                <!-- Feature 2 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">⛓️</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">Blockchain Native</h3>
-                    <p>Built on Solana for lightning-fast transactions and minimal fees.</p>
-                </div>
-                
-                <!-- Feature 3 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">🐊</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">Meme Culture</h3>
-                    <p>Community-driven with the fun and viral energy of meme coins.</p>
-                </div>
-                
-                <!-- Feature 4 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">💎</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">DeFi Integration</h3>
-                    <p>Seamless integration with major DEXs and DeFi protocols.</p>
-                </div>
-                
-                <!-- Feature 5 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">🔒</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">Secure & Audited</h3>
-                    <p>Smart contracts audited by leading security firms.</p>
-                </div>
-                
-                <!-- Feature 6 -->
-                <div class="glass-card tilt-card neon-border reveal">
-                    <div style="font-size: 48px; margin-bottom: 24px;">🚀</div>
-                    <h3 style="margin-bottom: 16px; color: var(--color-accent-primary);">Community First</h3>
-                    <p>Governed by the community, for the community.</p>
-                </div>
-            </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="value">100B</div>
+          <div class="label">Total Supply</div>
         </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section style="padding: 100px 0; background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(57, 255, 20, 0.05)); position: relative;">
-        <div class="grid-bg"></div>
-        <div class="container" style="text-align: center; position: relative; z-index: 1;">
-            <h2 class="text-glow-strong" style="font-size: 48px; margin-bottom: 24px;">Ready to Join the Revolution?</h2>
-            <p style="font-size: 20px; color: var(--color-text-secondary); margin-bottom: 48px;">
-                Be part of the future where memes meet serious DeFi technology
-            </p>
-            <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;">
-                <a href="buy.html" class="btn btn-primary glow" style="font-size: 18px; padding: 20px 48px;">Buy $CROC Now</a>
-                <a href="what-is.html" class="btn btn-secondary" style="font-size: 18px; padding: 20px 48px;">Learn More</a>
-            </div>
+        <div class="hero-stat">
+          <div class="value">5%</div>
+          <div class="label">Airdrop</div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">$CROC</div>
-                <div class="footer-social">
-                    <a href="https://x.com/crocprotocol" target="_blank" class="social-link glow" title="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://t.me/" target="_blank" class="social-link glow" title="Telegram">
-                        <i class="fab fa-telegram"></i>
-                    </a>
-                    <a href="https://discord.com" target="_blank" class="social-link glow" title="Discord">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 $CROC Protocol. All rights reserved. | Meme Meets DeFi & AI</p>
-            </div>
+        <div class="hero-stat">
+          <div class="value">Polygon</div>
+          <div class="label">Network</div>
         </div>
-    </footer>
+        <div class="hero-stat">
+          <div class="value">0%</div>
+          <div class="label">Tax</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/main.js"></script>
-    <script src="js/animation.js"></script>
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">About 404AI</span>
+        <h2 class="section-title">AI is a tool.<br/>Humans are the power.</h2>
+        <p class="section-subtitle">
+          404AI is not against technology. It stands for balance — where humans remain in control.
+          A human-first crypto movement built on Polygon, focused on community, awareness, and decentralization.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="icon">✦</div>
+          <h3>Human-First</h3>
+          <p>We believe creativity, judgment, and empathy can't be outsourced. 404AI puts humans back at the center.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="icon">◎</div>
+          <h3>Decentralized</h3>
+          <p>Built on Polygon for fast, low-cost, community-owned transactions. No single point of control.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="icon">△</div>
+          <h3>Movement, Not Hype</h3>
+          <p>Powered by awareness — a long-term, community-driven statement that humans stay in control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TOKENOMICS PREVIEW ================= -->
+  <section id="tokenomics" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Tokenomics</span>
+        <h2 class="section-title">Transparent by design.</h2>
+        <p class="section-subtitle">Simple, fair, and community-aligned from day one.</p>
+      </div>
+
+      <div class="tokenomics-grid">
+        <div class="token-card reveal">
+          <div class="label">Total Supply</div>
+          <div class="value">100B</div>
+          <div class="sub">100,000,000,000 $404AI</div>
+        </div>
+        <div class="token-card reveal">
+          <div class="label">Airdrop</div>
+          <div class="value">5%</div>
+          <div class="sub">Community rewards</div>
+        </div>
+        <div class="token-card reveal">
+          <div class="label">Network</div>
+          <div class="value">Polygon</div>
+          <div class="sub">Fast · Low fees</div>
+        </div>
+        <div class="token-card reveal">
+          <div class="label">Tax</div>
+          <div class="value">0 / 0</div>
+          <div class="sub">No buy/sell tax</div>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 48px;">
+        <a href="./tokenomics.html" class="btn btn-secondary">View Full Tokenomics →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ROADMAP PREVIEW — 3D FLOATING ================= -->
+  <section id="roadmap">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Roadmap</span>
+        <h2 class="section-title">A path built by humans.</h2>
+        <p class="section-subtitle">Four phases. One movement. Zero shortcuts.</p>
+      </div>
+
+      <div class="roadmap-grid">
+        <div class="phase-card active reveal">
+          <span class="phase-status">Live</span>
+          <span class="phase-num">01</span>
+          <h3>Launch &amp; Community</h3>
+          <ul>
+            <li>Token deployment on Polygon</li>
+            <li>Social channels &amp; brand</li>
+            <li>Early community seeding</li>
+          </ul>
+        </div>
+        <div class="phase-card reveal">
+          <span class="phase-status">Next</span>
+          <span class="phase-num">02</span>
+          <h3>Airdrop &amp; Expansion</h3>
+          <ul>
+            <li>Community airdrop rollout</li>
+            <li>Influencer &amp; KOL outreach</li>
+            <li>Global awareness push</li>
+          </ul>
+        </div>
+        <div class="phase-card reveal">
+          <span class="phase-status">Q3</span>
+          <span class="phase-num">03</span>
+          <h3>Listings &amp; Partnerships</h3>
+          <ul>
+            <li>CEX &amp; DEX listings</li>
+            <li>Strategic collaborations</li>
+            <li>Liquidity expansion</li>
+          </ul>
+        </div>
+        <div class="phase-card reveal">
+          <span class="phase-status">Q4+</span>
+          <span class="phase-num">04</span>
+          <h3>Ecosystem Growth</h3>
+          <ul>
+            <li>Human-first tooling</li>
+            <li>DAO governance</li>
+            <li>Long-term treasury</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 48px;">
+        <a href="./roadmap.html" class="btn btn-secondary">See Full Roadmap →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta-section" id="buy">
+    <div class="container">
+      <div class="cta-wrap reveal">
+        <h2>This is not just a token.<br/>It's a movement.</h2>
+        <p>Built by humans. For humans. Join the resistance against overdependence on AI.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-accent btn-lg" data-external>Buy on Polygon</a>
+          <a href="./airdrop.html" class="btn btn-secondary btn-lg">Claim Airdrop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="./index.html" class="nav-brand">
+            <span class="brand-mark">404</span>
+            <span class="brand-text">404<span>AI</span></span>
+          </a>
+          <p>AI is a tool. Humans are the power. A human-first crypto movement built on Polygon.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./tokenomics.html">Tokenomics</a></li>
+            <li><a href="./roadmap.html">Roadmap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="./airdrop.html">Airdrop</a></li>
+            <li><a href="./info.html">About</a></li>
+            <li><a href="https://docs.google.com/document/d/404ai-whitepaper" data-external>Whitepaper</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://x.com/404ai" data-external>X / Twitter</a></li>
+            <li><a href="https://t.me/404ai" data-external>Telegram</a></li>
+            <li><a href="#" data-external>Website</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 404AI. Stay Human.</p>
+        <div class="social-icons">
+          <a href="https://x.com/404ai" data-external aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://t.me/404ai" data-external aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+          </a>
+          <a href="#" data-external aria-label="Website">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
 </body>
 </html>
